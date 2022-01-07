@@ -10,8 +10,26 @@
   flex-wrap: wrap;
 }
 
+.container__root-font {
+  font-size: 25pt;
+  font-family: 'Bangers', cursive;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(41, 0, 0);
+}
+
 .container__root ul,li, a {
   display: inline;
   text-decoration: none;
   padding: 5px;
+  color: rgb(28, 1, 1);
+}
+
+.container__root li {
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
 }
