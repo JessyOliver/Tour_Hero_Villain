@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Marvel', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(253, 253, 253, 0.46), rgba(253, 253, 253, 0.494)),
+  url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/03/x-men.jpg);
+  background-attachment: fixed;
+}

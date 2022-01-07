@@ -1,0 +1,17 @@
+.container__menu {
+  padding: 20px;
+  background: linear-gradient(191deg, rgba(255,238,0,0.8253676470588236) 0%, rgba(199,129,20,0.8421743697478992) 50%, rgba(122,7,0,0.8225665266106442) 100%);
+}
+
+.container__root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container__root ul,li, a {
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+}
