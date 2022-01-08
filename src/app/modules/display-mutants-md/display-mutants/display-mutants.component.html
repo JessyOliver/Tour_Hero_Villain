@@ -1,0 +1,146 @@
+<div class="containner__display">
+
+  <div class="containner__display__hero">
+
+    <h1 class="display__alls_title">HERÓIS</h1>
+
+    <div *ngFor="let hero of heroes"  >
+
+      <div id="{{hero.id}}" appMouseHover class="display__alls">
+
+        <div class="card__front">
+          <div>
+
+            <h2 class="display__alls_name"> {{hero.name | uppercase}}</h2>
+          </div>
+          <div>
+
+            <img src="{{hero.img}}" alt="" id="hero-img"  width="250px" height="250px" class="display__imgs">
+          </div>
+
+          <div class="display__alls_inline">
+
+            <div class="display__alls_right">
+
+              <h2 class="display__alls_subTitle" for="hero-name">Nome: </h2>
+              <p class="display__alls_text" id="hero-name" > {{hero.name}} </p>
+            </div>
+            <div>
+
+              <h2 class="display__alls_subTitle" for="hero-name">Tipo: </h2>
+              <p class="display__alls_text" id="hero-name" > {{hero.tipo}} </p>
+            </div>
+          </div>
+          <div class="display__alls_inline">
+
+            <div class="display__alls_right2">
+
+              <h2 class="display__alls_subTitle" for="hero-creationDate">Foi criado em: </h2>
+              <p class="display__alls_text" id="hero-creationDate"> {{hero.creationDate}}</p>
+            </div>
+            <div>
+
+              <h2 class="display__alls_subTitle" for="hero-powers">Arqui-inimigo: </h2>
+              <p class="display__alls_text" id="hero-powers">
+                {{hero.enemy}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__back">
+
+          <div>
+
+            <h2 class="display__alls_Title" for="hero-powers">Poderes: </h2>
+            <p class="display__alls_textPowers" id="hero-powers">
+              {{hero.powers}}
+            </p>
+          </div>
+          <div>
+
+            <h2 class="display__alls_Title" for="hero-powers">Fraquesa: </h2>
+            <p class="display__alls_textPowers" id="hero-powers">
+              {{hero.fraquesa}}
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="containner__display__villain">
+
+    <h1 class="display__alls_title">Vilões</h1>
+
+    <div *ngFor="let villain of villains"  >
+
+      <div id="{{villain.id}}" appMouseHover class="display__alls">
+
+        <div class="card__front">
+          <div>
+
+            <h2 class="display__alls_name"> {{villain.name | uppercase}}</h2>
+          </div>
+          <div>
+
+            <img src="{{villain.img}}" alt="" id="hero-img"  width="250px" height="250px" class="display__alls_img">
+          </div>
+
+
+          <div class="display__alls_inline">
+
+            <div class="display__alls_right">
+
+              <h2 class="display__alls_subTitle" for="hero-name">Nome: </h2>
+              <p class="display__alls_text" id="hero-name" > {{villain.name}} </p>
+            </div>
+            <div>
+
+              <h2 class="display__alls_subTitle" for="hero-name">Tipo: </h2>
+              <p class="display__alls_text" id="hero-name" > {{villain.tipo}} </p>
+            </div>
+          </div>
+
+          <div class="display__alls_inline">
+
+            <div class="display__alls_right2">
+
+              <h2 class="display__alls_subTitle" for="hero-creationDate">Foi criado em: </h2>
+              <p class="display__alls_text" id="hero-creationDate"> {{villain.creationDate}}</p>
+            </div>
+            <div>
+
+              <h2 class="display__alls_subTitle" for="hero-powers">Arqui-inimigo: </h2>
+              <p class="display__alls_text" id="hero-powers">
+                {{villain.enemy}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__back">
+
+          <div>
+
+            <h2 class="display__alls_Title" for="hero-powers">Poderes: </h2>
+            <p class="display__alls_textPowers" id="hero-powers">
+              {{villain.powers}}
+            </p>
+          </div>
+          <div>
+
+            <h2 class="display__alls_Title" for="hero-powers">Fraquesa: </h2>
+            <p class="display__alls_textPowers" id="hero-powers">
+              {{villain.fraquesa}}
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

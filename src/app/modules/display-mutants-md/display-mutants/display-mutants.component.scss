@@ -1,0 +1,100 @@
+.containner__display {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display__alls_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35pt;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(41, 0, 0);
+}
+
+/*style heroes*/
+.containner__display__hero {
+  padding: 15px;
+  width: 500px;
+  background: linear-gradient(191deg, #e8b50fd7 0%, #23c714d7 50%, #0010ffd2 100%); //0010ffd2
+  margin-bottom: 20px;
+}
+
+.display__alls {
+  border: 4px solid #fff;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.display__alls_name {
+  text-align: center;
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25pt;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.display__alls_img {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.display__alls_subTitle {
+  text-align: left;
+  color: rgb(255, 207, 48);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-left: 35px;
+}
+
+.display__alls_text {
+  text-align: left;
+  font-size: 15pt;
+  color: #fff;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+.display__alls_Title {
+  text-align: left;
+  color: rgb(255, 207, 48);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-left: 35px;
+}
+
+.display__alls_textPowers {
+  text-indent: 1.5em;
+  padding: 15px;
+  text-align: justify;
+  font-size: 15pt;
+  color: #fff;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+.display__alls_right {
+  margin-right: 57px;
+}
+
+.display__alls_right2 {
+  margin-right: 35px;
+}
+
+.display__alls_inline {
+  display: flex;
+  justify-content: left;
+}
+
+/*style Villains*/
+.containner__display__villain {
+  padding: 15px;
+  width: 500px;
+  background: linear-gradient(191deg, #030303d2 0%, #c71414d7 50%, #6f3000d2 100%); //0010ffd2
+}

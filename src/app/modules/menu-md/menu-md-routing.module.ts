@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MenuComponent } from 'src/app/modules/menu-md/menu/menu.component';
+import { DisplayMutantsComponent } from '../display-mutants-md/display-mutants/display-mutants.component';
+import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
-  { path: '', component: MenuComponent }
+  { path: '', component: MenuComponent },
+
 ];
 
 @NgModule({
